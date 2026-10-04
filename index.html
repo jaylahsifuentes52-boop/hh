@@ -1,0 +1,80 @@
+```html
+<div class="download-card">
+  <div class="app-icon">J</div>
+
+  <div class="app-info">
+    <h2>Junior Scanner</h2>
+    <p>Android App</p>
+  </div>
+
+  <a class="download-button" href="JuniorScanner.apk" download>
+    Download Junior
+  </a>
+</div>
+
+<style>
+  .download-card {
+    max-width: 520px;
+    margin: 40px auto;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    border-radius: 24px;
+    background: rgba(20, 20, 28, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.35);
+    font-family: Arial, sans-serif;
+  }
+
+  .app-icon {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    background: linear-gradient(135deg, #ffffff, #777777);
+    color: #111;
+    font-size: 32px;
+    font-weight: 900;
+  }
+
+  .app-info {
+    flex: 1;
+  }
+
+  .app-info h2 {
+    margin: 0;
+    color: white;
+    font-size: 22px;
+  }
+
+  .app-info p {
+    margin: 6px 0 0;
+    color: #aaa;
+    font-size: 14px;
+  }
+
+  .download-button {
+    padding: 14px 20px;
+    border-radius: 14px;
+    background: white;
+    color: #111;
+    text-decoration: none;
+    font-weight: 800;
+    transition: 0.2s;
+    white-space: nowrap;
+  }
+
+  .download-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(255, 255, 255, 0.2);
+  }
+
+  .download-button:active {
+    transform: scale(0.97);
+  }
+</style>
+```
